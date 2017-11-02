@@ -1,11 +1,15 @@
 # coding: utf-8
 
 import datetime
-#from flask.ext.sqlalchemy import SQLAlchemy, BaseQuery
-#from flask.ext.cache import Cache
+
 # 新版本的flask框架建议以下方式导入插件
 from flask_sqlalchemy import SQLAlchemy, BaseQuery
+#print 'flask_cache:1'
 from flask_cache import Cache
+#print 'flask_cache:2'
+
+#from flask.ext.sqlalchemy import SQLAlchemy, BaseQuery
+#from flask.ext.cache import Cache
 
 __all__ = [
     'db', 'cache', 'JuneQuery', 'SessionMixin',
