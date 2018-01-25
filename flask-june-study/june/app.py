@@ -11,7 +11,7 @@ from flask_mail import Mail
 from ._flask import Flask
 from .models import db, cache, get_site_status
 
-from zftrace import debug
+#from zftrace import debug
 
 # 创建app的函数
 def create_app(config=None):
